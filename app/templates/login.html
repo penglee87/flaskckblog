@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}Flasky - Login{% endblock %}
+
+{% block page_content %}
+<div class="page-header">
+    <h1>Login</h1>
+</div>
+<div >
+<form method="POST">
+{{ form.hidden_tag() }}
+{{ form.email.label }}<br>
+{{ form.email(class="form-control-login") }} <br>
+{{ form.password.label }}<br>
+{{ form.password(class="form-control-login") }} <br>
+{{ form.remember_me() }}
+{{ form.remember_me.label }}<br><br>
+{{ form.submit(class="btn") }}
+</form>
+</div>
+{% endblock %}
+
+

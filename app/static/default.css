@@ -1,0 +1,301 @@
+@charset "utf-8";
+html{overflow-x: auto; overflow-y:auto;height:100%;}
+body{
+    margin:0px;
+    padding:0px;
+    font:12px/150% '微软雅黑';
+    color:#333333;
+    height:100%;
+}
+
+a {
+	text-decoration: none;
+	color:#0000FF;
+}
+/*
+a:visited {
+    text-decoration: none;
+    color: #666;
+}
+
+a:hover {
+    color:#337ab7;
+    text-decoration:underline;
+}
+
+
+a:visited {
+    color:#337ab7;
+}
+*/
+
+li{
+	list-style: none;
+}
+
+.post-date {
+	color:#999999;
+}
+
+.alert {
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+.alert-warning {
+	color: #8a6d3b;
+	background-color: #fcf8e3;
+	border-color: #faebcc;
+}
+
+.page-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.form-control {
+	display: block;
+	width: 100%;
+	height: 30px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.4;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.form-control-content{
+	display: block;
+	width: 100%;
+	height: 240px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.4;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.form-control-login {
+	display: block;
+	width: 30%;
+	height: 25px;
+	padding: 6px 12px;
+	font-size: 14px;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.btn-default {
+	color: #333;
+	background-color: #fff;
+	border-color: #ccc;
+}
+.btn {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.4;
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+
+.pagination {
+	position: relative
+	display: inline-block;
+	padding-left: 0;
+	margin: 20px 0;
+	border-radius: 4px;
+}
+
+.pagination li {
+	float:left;
+	display: inline;
+	font-size: 18px;
+}
+
+
+
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 45px;
+	background: #0767c8;
+	border-bottom: 1px solid #044e97;
+	z-index:1
+}
+
+.header-wrap{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.header-nav {
+	float: left;
+	position: relative
+}
+
+.header-nav-li {
+	position: relative;
+	float: left;
+	margin-left: 0px;
+	margin-right: 40px;
+	list-style: none
+}
+
+.header-nav-link {
+	width: 54px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	display: block;
+	color: #fff;
+	text-shadow: 0 1px 1px rgba(0,0,0,.12);
+	font-size: 24px
+}
+
+
+
+.header-profile {
+	float: right;
+	position: relative;
+	min-width: 120px;
+	margin-left: 0px;
+}
+
+.header-profile .header-profile-userinfo {
+	position: relative;
+	padding-left: 0px;
+	height: 45px;
+	line-height: 45px;
+	color: #fff;
+	text-decoration: none;
+	border-top: 0;
+	background: transparent;
+	box-shadow: none;
+	white-space: nowrap;
+}
+
+.header-profile a {
+	display: block;
+	width: 120px;
+	background-color: #095fb3;
+	font-size: 24px
+}
+
+
+
+.header-profile .header-dropdown {
+	top: 46px
+}
+
+.header-dropdown {
+	display: none;
+	position: absolute;
+	margin: 0px;
+	left: 0px;
+}
+
+
+.header-dropdown li {
+	margin: 0px;
+	padding-left: 0px;
+	list-style: none;
+}
+
+.header-dropdown li a {
+    padding-left: 2px;
+	display: block;
+	width: 145px;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	text-decoration: none;
+	border-top: 1px solid #0d5aa5;
+	box-shadow: 0 1px 1px rgba(0,0,0,.4);
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+
+.header-profile:hover .header-dropdown {
+	display: block;
+}
+
+
+.container {
+	position: relative;
+	top:60px;
+}
+
+.container-wrap{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.container-side-nav {
+	float: right;
+	position: relative;
+	height: 28px;
+	line-height: 28px;
+}
+
+.container-side-nav-link {
+	position: relative;
+	margin-top:5px;
+	margin-left:15px;
+}
+
+.container-side-nav-link li{
+	position: relative;
+	padding: 0 0 0 5px;
+	display: block;
+}
+
+.container-blog a:hover{
+	text-decoration:underline;
+}
+
+/*
+.container-side-nav-link li a:visited{
+	color: #0066cc;
+}
+
+.zu-main-content {
+	float: left;
+	width: 100%
+}
+
+.zu-main-content-inner {
+	position: relative;
+	margin: 0 328px 0 0
+}
+
+.zu-main-sidebar {
+	position: relative;
+	float: left;
+	margin: 0 0 0 -270px;
+	width: 270px
+}
+*/
